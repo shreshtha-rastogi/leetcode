@@ -33,7 +33,6 @@ public:
         return count;
     }
 };
-
 int main() {
     int n;
     cout << "Enter n: ";
