@@ -29,7 +29,6 @@ public:
             if (isGood(i))
                 count++;
         }
-
         return count;
     }
 };
