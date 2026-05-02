@@ -41,6 +41,5 @@ int main() {
 
     Solution obj;
     cout << "Number of good integers: " << obj.rotatedDigits(n) << endl;
-
     return 0;
 }
