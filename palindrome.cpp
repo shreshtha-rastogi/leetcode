@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class Solution {
 public:
-
     bool isPalindrome(string &s, int l, int r) {
         while(l < r) {
             if(s[l] != s[r]) return false;
@@ -12,11 +10,8 @@ public:
         }
         return true;
     }
-
     bool palindromePair(vector<string>& arr) {
-
         unordered_map<string, int> mp;
-
         for(int i = 0; i < arr.size(); i++) {
             mp[arr[i]] = i;
         }
@@ -76,4 +71,3 @@ int main() {
 
     return 0;
 }
-
