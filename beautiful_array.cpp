@@ -22,17 +22,13 @@ class Solution {
         return st;
     }
 };
-
 int main() {
     int n;
     cin >> n;
-
     vector<int> arr(n);
-
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-
     Solution obj;
     vector<int> ans = obj.makeBeautiful(arr);
 
