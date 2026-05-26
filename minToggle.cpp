@@ -44,6 +44,5 @@ int main() {
     }
     Solution obj;
     cout << obj.minToggle(arr) << endl;
-
     return 0;
 }
