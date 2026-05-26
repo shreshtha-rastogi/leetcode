@@ -36,3 +36,6 @@ int main() {
     cout << obj.minToggle(arr) << endl;
     return 0;
 }
+
+
+
