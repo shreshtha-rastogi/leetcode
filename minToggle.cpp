@@ -6,7 +6,6 @@ class Solution {
 public:
     int minToggle(vector<int>& arr) {
         int n = arr.size();
-
         vector<int> prefixOnes(n + 1, 0);
         vector<int> suffixZeros(n + 1, 0);
 
