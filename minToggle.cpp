@@ -28,7 +28,6 @@ public:
             int toggles = prefixOnes[i] + suffixZeros[i];
             ans = min(ans, toggles);
         }
-
         return ans;
     }
 };
