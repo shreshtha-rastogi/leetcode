@@ -32,7 +32,6 @@ public:
         return ans;
     }
 };
-
 int main() {
     int n;
     cin >> n;
