@@ -12,7 +12,6 @@ public:
         for (int i = 0; i < n; i++) {
             prefixOnes[i + 1] = prefixOnes[i] + (arr[i] == 1);
         }
-
         // Count zeros in suffix
         for (int i = n - 1; i >= 0; i--) {
             suffixZeros[i] = suffixZeros[i + 1] + (arr[i] == 0);
