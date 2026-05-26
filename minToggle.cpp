@@ -8,7 +8,6 @@ public:
         int n = arr.size();
         vector<int> prefixOnes(n + 1, 0);
         vector<int> suffixZeros(n + 1, 0);
-
         // Count ones in prefix
         for (int i = 0; i < n; i++) {
             prefixOnes[i + 1] = prefixOnes[i] + (arr[i] == 1);
