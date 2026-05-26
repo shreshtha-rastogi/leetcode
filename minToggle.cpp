@@ -22,7 +22,6 @@ public:
         }
 
         int ans = INT_MAX;
-
         // Try every partition point
         for (int i = 0; i <= n; i++) {
             int toggles = prefixOnes[i] + suffixZeros[i];
