@@ -19,4 +19,3 @@ int main()
     Node* y = Node(arr[0], nullptr);
     cout<<y->data<<endl;
 }
-
