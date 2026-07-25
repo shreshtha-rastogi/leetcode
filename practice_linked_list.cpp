@@ -20,5 +20,3 @@ int main()
     cout<<y->data<<endl;
 }
 
-
-
